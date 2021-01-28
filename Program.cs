@@ -122,7 +122,7 @@ namespace Game
         public static void Exit()
         {
             Console.Clear();
-            Console.WriteLine("Thank you for playing! See you next time");
+            PrintDesign.WriteLineInGreen("Thank you for playing! See you next time");
             Environment.Exit(0);
         }
     }
