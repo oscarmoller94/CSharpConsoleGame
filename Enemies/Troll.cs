@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Game
 {
-    class Troll : EnemyModel, IFightable
+    class Troll : EnemyModel
     {
         private static Random rnd = new Random();
         private static List<string> trollAttacks = new List<string>()

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Game
 {
-    class Zombie : EnemyModel, IFightable
+    class Zombie : EnemyModel
     {
         private static Random rnd = new Random();
         private static List<string> zombieAttacks = new List<string>()
